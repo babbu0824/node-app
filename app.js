@@ -1,7 +1,7 @@
 var express = require('express');
 
 var app = express();
-var argv = require('optimist').argv;
+var argv = require('optimist');
 
 app.get('/about', function(req,res){
 	res.send('<h1>About Us</h1>');
