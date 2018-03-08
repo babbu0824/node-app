@@ -1,0 +1,26 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "A quick first nodejs app to be hosted on google cloud.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^3.4.7"
+  },
+  "devDependencies": {
+	"express" : "/*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babbu0824/node-app.git"
+  },
+  "author": "Amit J B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babbu0824/node-app/issues"
+  },
+  "homepage": "https://github.com/babbu0824/node-app#readme"
+}
